@@ -1,0 +1,71 @@
+#main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+#main-header .logo {
+  position: relative;
+  width: 100%;
+  max-width: 192px;
+  height: 38px;
+}
+
+#main-header .logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#main-header .logo object {
+  width: 100%;
+  pointer-events: none;
+}
+
+#main-header .menu {
+  width: auto;
+}
+
+#main-header .menu .makeStyles-switch-2,
+#main-header .menu label + .MuiInput-formControl {
+  margin-top: 20px;
+}
+
+#main-header .menu label + .MuiInput-formControl {
+  min-width: 160px;
+}
+
+#main-header .menu .MuiInput-underline:before,
+#main-header .menu .MuiInput-underline::after {
+  display: none;
+}
+
+.main-header .menu .MuiMenuItem-root {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main-header .menu #tuning-select {
+  padding: 1rem calc(1rem + 24px) 1rem 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  #main-header .row {
+    flex-direction: column;
+  }
+
+  #main-header .logo {
+    margin-bottom: 1rem;
+  }
+}

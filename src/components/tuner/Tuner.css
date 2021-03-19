@@ -1,0 +1,134 @@
+.tuner {
+  position: relative;
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.tuner-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tuner-buttons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.tuner-buttons li:nth-child(1) {
+  order: 5;
+}
+
+.tuner-buttons li:nth-child(2) {
+  order: 3;
+}
+
+.tuner-buttons li:nth-child(3) {
+  order: 1;
+}
+
+.tuner-buttons li:nth-child(4) {
+  order: 2;
+}
+
+.tuner-buttons li:nth-child(5) {
+  order: 4;
+}
+
+.tuner-buttons li:nth-child(6) {
+  order: 6;
+}
+
+.tuner-buttons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+  color: rgb(60, 60, 60);
+}
+
+.tuner-buttons li a:hover {
+  background: rgb(220, 220, 220);
+}
+
+.tuner-buttons li a:active {
+  background: #ffbf0a;
+}
+
+.tuner-buttons li.current-string a {
+  background: #ffbf0a;
+}
+
+.tuner-heading {
+  width: 100%;
+  transform: translateX(6px);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .tuner-guitar {
+    width: 300px;
+  }
+
+  /* .tuner-buttons li a {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  } */
+
+  /* STRING 1 */
+  .tuner-buttons li:nth-child(1) {
+    bottom: 89px;
+    left: 38px;
+  }
+
+  /* STRING 2 */
+  .tuner-buttons li:nth-child(2) {
+    bottom: 151px;
+    left: 34px;
+  }
+
+  /* STRING 3 */
+  .tuner-buttons li:nth-child(3) {
+    bottom: 208px;
+    left: 31px;
+  }
+
+  /* STRING 4 */
+  .tuner-buttons li:nth-child(4) {
+    bottom: 89px;
+    right: 40px;
+  }
+
+  /* STRING 5 */
+  .tuner-buttons li:nth-child(5) {
+    bottom: 151px;
+    right: 36px;
+  }
+
+  /* STRING 6 */
+  .tuner-buttons li:nth-child(6) {
+    bottom: 220px;
+    right: 32px;
+  }
+}
