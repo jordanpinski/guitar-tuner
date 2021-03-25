@@ -21,6 +21,7 @@ const Home: React.FC<HomeProps> = (props) => {
         setCurrentTuning={props.setCurrentTuning}
         currentTuning={props.currentTuning}
         isLooping={props.isLooping}
+        setIsLooping={props.setIsLooping}
         loopInterval={props.loopInterval}
         options={props.options}
       />

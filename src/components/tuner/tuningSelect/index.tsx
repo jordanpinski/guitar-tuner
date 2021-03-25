@@ -24,7 +24,6 @@ const TuningSelect: React.FC<TuningSelectProps> = (props) => {
 
   return(
     <>
-      <h3>Tuning</h3>
       <Dropdown
         selection
         options={props.options}

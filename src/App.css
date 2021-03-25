@@ -13,6 +13,12 @@ body {
   margin: 0;
   padding: 0;
   background: #363636;
+  background: linear-gradient(270deg, #8186ca, #ca81c7, #fb7070, #67d262);
+  background-size: 800% 800%;
+
+  -webkit-animation: dynamicBacground 59s ease infinite;
+  -moz-animation: dynamicBacground 59s ease infinite;
+  animation: dynamicBacground 59s ease infinite;
 }
 
 body.light {
@@ -25,6 +31,27 @@ body.light {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+/* ------------------------
+*
+* ANIMATION
+*
+* ------------------------*/
+@-webkit-keyframes dynamicBacground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes dynamicBacground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes dynamicBacground {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 /* ------------------------

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import TuneBy from './tuneBy';
+import TuningLoop from './tuningLoop';
 import TuningSelect from './tuningSelect';
 import useSound from 'use-sound';
 import GuitarSVG from '../../assets/guitar-head.svg';
@@ -8,6 +10,7 @@ interface TunerProps {
   setCurrentTuning: any
   currentTuning: any
   isLooping: boolean
+  setIsLooping: any
   loopInterval: number
   options: any
 }
@@ -122,11 +125,44 @@ const Tuner: React.FC<TunerProps> = (props) => {
             </li>
           </ul>
           <div className="tuner-settings">
-            <TuningSelect
-              currentTuning={props.currentTuning}
-              setCurrentTuning={props.setCurrentTuning}
-              options={props.options}
-            />
+
+          <div className="row">
+            <div className="input-wrapper">
+              <h3>Tune By</h3>
+              <TuneBy
+                currentTuning={props.currentTuning}
+                setCurrentTuning={props.setCurrentTuning}
+                options={props.options}
+              />
+            </div>
+
+            <div className="input-wrapper">
+              <h3>Tuning</h3>
+              <TuningSelect
+                currentTuning={props.currentTuning}
+                setCurrentTuning={props.setCurrentTuning}
+                options={props.options}
+              />
+            </div>
+          </div>
+
+            <div className="row">
+
+              <div className="input-wrapper">
+                <h3>Loop</h3>
+                <TuningLoop
+                  setIsLooping={props.setIsLooping}
+                  isLooping={props.isLooping}
+                />
+              </div>
+
+              <div className="input-wrapper">
+                <h3>Loop Interval</h3>
+ 
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
