@@ -12,18 +12,13 @@
 
 .main-footer .skynet-logo {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
 }
 
-.main-footer .skynet-logo a {
-  width: 100px;
-  height: 100px;
-}
-
 .main-footer .skynet-logo object {
   pointer-events: none;
+  max-width: 30px;
 }

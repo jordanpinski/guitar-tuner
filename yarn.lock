@@ -972,6 +972,12 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.7":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.12.18"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.18.tgz#af137bd7e7d9705a412b3caaf991fe6aaa97831b"
@@ -1018,6 +1024,246 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
 
+"@bit/semantic-org.semantic-ui-react.dimmer@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.dimmer/-/semantic-org.semantic-ui-react.dimmer-0.88.2.tgz#49736c5619112c9d8e20379c10aaac0de9772b13"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.portal" "0.88.2"
+    "@stardust-ui/react-component-ref" "~0.38.0"
+    classnames "^2.2.6"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.dropdown@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.dropdown/-/semantic-org.semantic-ui-react.dropdown-0.88.2.tgz#4143152826cb5134a481af50e1c3ecd2a0ef12e1"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.flag" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.icon" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.image" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.label" "0.88.2"
+    "@semantic-ui-react/event-stack" "^3.1.0"
+    "@stardust-ui/react-component-ref" "~0.38.0"
+    classnames "^2.2.6"
+    keyboard-key "^1.0.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    shallowequal "^1.1.0"
+
+"@bit/semantic-org.semantic-ui-react.flag@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.flag/-/semantic-org.semantic-ui-react.flag-0.88.2.tgz#450c65c9381e064b2872c232782825247f401f92"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.icon@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.icon/-/semantic-org.semantic-ui-react.icon-0.88.2.tgz#95783a5df04039d8c80a7a73416aa251ca271360"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    classnames "^2.2.6"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.image@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.image/-/semantic-org.semantic-ui-react.image-0.88.2.tgz#4584b3de4570f70610eec42df801e9be11d62fd0"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.dimmer" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.label" "0.88.2"
+    classnames "^2.2.6"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.internal.genericd@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.internal.genericd/-/semantic-org.semantic-ui-react.internal.genericd-0.88.2.tgz#034f568562cc67187058278e18736edbc956983a"
+
+"@bit/semantic-org.semantic-ui-react.internal.utils.index@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.internal.utils.index/-/semantic-org.semantic-ui-react.internal.utils.index-0.88.2.tgz#d2af63ce6d7e8171775e523413c2a04f2c6c3f6e"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.child-mapping" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.children-utils" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.class-name-builders" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.create-pagination-items" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.custom-prop-types" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.event-stack" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.factories" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.get-element-type" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.html-props-utils" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.make-debugger" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.modern-auto-controlled-component" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.normalize-offset" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.object-diff" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.utils.sui" "0.88.2"
+
+"@bit/semantic-org.semantic-ui-react.label@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.label/-/semantic-org.semantic-ui-react.label-0.88.2.tgz#595cc623728c34ec47d40a48b9504f43b62f89fd"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.icon" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.image" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.genericd" "0.88.2"
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    classnames "^2.2.6"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.portal@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.portal/-/semantic-org.semantic-ui-react.portal-0.88.2.tgz#6fdd20b97803234052635d60a44556e93da727ba"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.internal.utils.index" "0.88.2"
+    "@semantic-ui-react/event-stack" "^3.1.0"
+    "@stardust-ui/react-component-ref" "~0.38.0"
+    keyboard-key "^1.0.4"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.select@^0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.select/-/semantic-org.semantic-ui-react.select-0.88.2.tgz#178552b5768c245d0727a5ee48d7343f91083720"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.dropdown" "0.88.2"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.auto-controlled-component/-/semantic-org.semantic-ui-react.utils.auto-controlled-component-0.88.2.tgz#54b34d48c09bde84543ff0ba0e098be7d8fbfc09"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.child-mapping@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.child-mapping/-/semantic-org.semantic-ui-react.utils.child-mapping-0.88.2.tgz#35b8f975699f709df56369265f9a784e419642d7"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.children-utils@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.children-utils/-/semantic-org.semantic-ui-react.utils.children-utils-0.88.2.tgz#f9d20867b465921437c3186af4f6ad37884ebbb2"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.class-name-builders@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.class-name-builders/-/semantic-org.semantic-ui-react.utils.class-name-builders-0.88.2.tgz#7c6b03f4318206bd494796edcf1069d18c37bb39"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.88.2"
+
+"@bit/semantic-org.semantic-ui-react.utils.create-pagination-items@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.create-pagination-items/-/semantic-org.semantic-ui-react.utils.create-pagination-items-0.88.2.tgz#8466aa7d94b7d7284d8b3792f3b72e86e25764ca"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.custom-prop-types@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.custom-prop-types/-/semantic-org.semantic-ui-react.utils.custom-prop-types-0.88.2.tgz#ac46160a3d89b20e8354e80c78f7f694b88a9df9"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.leven" "0.88.2"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@bit/semantic-org.semantic-ui-react.utils.does-node-contain-click@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.does-node-contain-click/-/semantic-org.semantic-ui-react.utils.does-node-contain-click-0.88.2.tgz#22571e202f283d8c63f2728ff4588932625a4ce4"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.event-stack@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.event-stack/-/semantic-org.semantic-ui-react.utils.event-stack-0.88.2.tgz#2d7107abc6eb66c9276bbb0fb556debd547cc0cd"
+  dependencies:
+    "@semantic-ui-react/event-stack" "^3.1.0"
+
+"@bit/semantic-org.semantic-ui-react.utils.factories@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.factories/-/semantic-org.semantic-ui-react.utils.factories-0.88.2.tgz#4eea3de23b51d8d1b0e70c1f266f8ef34d72b426"
+  dependencies:
+    classnames "^2.2.6"
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.get-element-type@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.get-element-type/-/semantic-org.semantic-ui-react.utils.get-element-type-0.88.2.tgz#4363f8e295f711170a85c36b32f9cd30b620a109"
+
+"@bit/semantic-org.semantic-ui-react.utils.get-unhandled-props@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.get-unhandled-props/-/semantic-org.semantic-ui-react.utils.get-unhandled-props-0.88.2.tgz#cb286931bafa57f9fd0d88aac232b6e53460ad9f"
+
+"@bit/semantic-org.semantic-ui-react.utils.html-props-utils@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.html-props-utils/-/semantic-org.semantic-ui-react.utils.html-props-utils-0.88.2.tgz#2ff66735f840ada03912b7eeac04c1b37b2cd942"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.is-browser@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.is-browser/-/semantic-org.semantic-ui-react.utils.is-browser-0.88.2.tgz#d6fe0d54db5309075e6315f5f0a72055feb15599"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.leven@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.leven/-/semantic-org.semantic-ui-react.utils.leven-0.88.2.tgz#8379f0c96cb86a423ac920325c358723f3d2c22a"
+
+"@bit/semantic-org.semantic-ui-react.utils.make-debugger@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.make-debugger/-/semantic-org.semantic-ui-react.utils.make-debugger-0.88.2.tgz#db7b53c7c2a3364e9759a64cdad4ff89ffe7dc24"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.is-browser" "0.88.2"
+    debug "^4.1.1"
+
+"@bit/semantic-org.semantic-ui-react.utils.modern-auto-controlled-component@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.modern-auto-controlled-component/-/semantic-org.semantic-ui-react.utils.modern-auto-controlled-component-0.88.2.tgz#e80e013ef3b6c573e104c2bb37ca1a112d315290"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.auto-controlled-component" "0.88.2"
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.normalize-offset@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.normalize-offset/-/semantic-org.semantic-ui-react.utils.normalize-offset-0.88.2.tgz#a53dfe8868a2485404f0ffc3f4ccd16b8a0272a8"
+
+"@bit/semantic-org.semantic-ui-react.utils.normalize-transition-duration@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.normalize-transition-duration/-/semantic-org.semantic-ui-react.utils.normalize-transition-duration-0.88.2.tgz#e2459604c047cbcf4862cfab2dbccea122eb4f7e"
+
+"@bit/semantic-org.semantic-ui-react.utils.number-to-word@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.number-to-word/-/semantic-org.semantic-ui-react.utils.number-to-word-0.88.2.tgz#6fab0d39f79b8c9e0e131a9de68e789f1d8880ba"
+
+"@bit/semantic-org.semantic-ui-react.utils.object-diff@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.object-diff/-/semantic-org.semantic-ui-react.utils.object-diff-0.88.2.tgz#aac5db8b08751afbeea7eef668fde0b30e7fa576"
+  dependencies:
+    lodash "^4.17.15"
+
+"@bit/semantic-org.semantic-ui-react.utils.sui@0.88.2":
+  version "0.88.2"
+  resolved "https://node.bit.dev/semantic-org.semantic-ui-react.utils.sui/-/semantic-org.semantic-ui-react.utils.sui-0.88.2.tgz#04ff2d8065dd5e2986c8cf0541700e9c5d7b0b6b"
+  dependencies:
+    "@bit/semantic-org.semantic-ui-react.utils.number-to-word" "0.88.2"
+    lodash "^4.17.15"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1032,6 +1278,62 @@
 "@csstools/normalize.css@^10.1.0":
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
+
+"@emotion/cache@^11.0.0", "@emotion/cache@^11.1.3":
+  version "11.1.3"
+  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.1.3.tgz#c7683a9484bcd38d5562f2b9947873cf66829afd"
+  dependencies:
+    "@emotion/memoize" "^0.7.4"
+    "@emotion/sheet" "^1.0.0"
+    "@emotion/utils" "^1.0.0"
+    "@emotion/weak-memoize" "^0.2.5"
+    stylis "^4.0.3"
+
+"@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+
+"@emotion/memoize@^0.7.4":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
+
+"@emotion/react@^11.1.1":
+  version "11.1.5"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.1.5.tgz#15e78f9822894cdc296e6f4e0688bac8120dfe66"
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+    "@emotion/cache" "^11.1.3"
+    "@emotion/serialize" "^1.0.0"
+    "@emotion/sheet" "^1.0.1"
+    "@emotion/utils" "^1.0.0"
+    "@emotion/weak-memoize" "^0.2.5"
+    hoist-non-react-statics "^3.3.1"
+
+"@emotion/serialize@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-1.0.1.tgz#322cdebfdbb5a88946f17006548191859b9b0855"
+  dependencies:
+    "@emotion/hash" "^0.8.0"
+    "@emotion/memoize" "^0.7.4"
+    "@emotion/unitless" "^0.7.5"
+    "@emotion/utils" "^1.0.0"
+    csstype "^3.0.2"
+
+"@emotion/sheet@^1.0.0", "@emotion/sheet@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.1.tgz#245f54abb02dfd82326e28689f34c27aa9b2a698"
+
+"@emotion/unitless@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+
+"@emotion/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-1.0.0.tgz#abe06a83160b10570816c913990245813a2fd6af"
+
+"@emotion/weak-memoize@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
 
 "@eslint/eslintrc@^0.3.0":
   version "0.3.0"
@@ -1249,6 +1551,65 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@material-ui/core@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.11.3.tgz#f22e41775b0bd075e36a7a093d43951bf7f63850"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/styles" "^4.11.3"
+    "@material-ui/system" "^4.11.3"
+    "@material-ui/types" "^5.1.0"
+    "@material-ui/utils" "^4.11.2"
+    "@types/react-transition-group" "^4.2.0"
+    clsx "^1.0.4"
+    hoist-non-react-statics "^3.3.2"
+    popper.js "1.16.1-lts"
+    prop-types "^15.7.2"
+    react-is "^16.8.0 || ^17.0.0"
+    react-transition-group "^4.4.0"
+
+"@material-ui/styles@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.11.3.tgz#1b8d97775a4a643b53478c895e3f2a464e8916f2"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@emotion/hash" "^0.8.0"
+    "@material-ui/types" "^5.1.0"
+    "@material-ui/utils" "^4.11.2"
+    clsx "^1.0.4"
+    csstype "^2.5.2"
+    hoist-non-react-statics "^3.3.2"
+    jss "^10.5.1"
+    jss-plugin-camel-case "^10.5.1"
+    jss-plugin-default-unit "^10.5.1"
+    jss-plugin-global "^10.5.1"
+    jss-plugin-nested "^10.5.1"
+    jss-plugin-props-sort "^10.5.1"
+    jss-plugin-rule-value-function "^10.5.1"
+    jss-plugin-vendor-prefixer "^10.5.1"
+    prop-types "^15.7.2"
+
+"@material-ui/system@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/system/-/system-4.11.3.tgz#466bc14c9986798fd325665927c963eb47cc4143"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/utils" "^4.11.2"
+    csstype "^2.5.2"
+    prop-types "^15.7.2"
+
+"@material-ui/types@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@material-ui/types/-/types-5.1.0.tgz#efa1c7a0b0eaa4c7c87ac0390445f0f88b0d88f2"
+
+"@material-ui/utils@^4.11.2":
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/@material-ui/utils/-/utils-4.11.2.tgz#f1aefa7e7dff2ebcb97d31de51aecab1bb57540a"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    prop-types "^15.7.2"
+    react-is "^16.8.0 || ^17.0.0"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -1310,6 +1671,13 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@semantic-ui-react/event-stack@^3.1.0":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.2.tgz#14fac9796695aa3967962d94ea9733a85325f9c4"
+  dependencies:
+    exenv "^1.2.2"
+    prop-types "^15.6.2"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.2.tgz#858f5c4b48d80778fde4b9d541f27edc0d56488b"
@@ -1321,6 +1689,14 @@
   resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-6.0.1.tgz#293674fccb3262ac782c7aadfdeca86b10c75c40"
   dependencies:
     "@sinonjs/commons" "^1.7.0"
+
+"@stardust-ui/react-component-ref@~0.38.0":
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/@stardust-ui/react-component-ref/-/react-component-ref-0.38.0.tgz#52d555f2d5edd213c923c93a106f7de940e427ef"
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    prop-types "^15.7.2"
+    react-is "^16.6.3"
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
@@ -1589,9 +1965,36 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
 
+"@types/react-dom@*":
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.2.tgz#35654cf6c49ae162d5bc90843d5437dc38008d43"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@^17.0.0":
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.1.tgz#d92d77d020bfb083e07cc8e0ac9f933599a4d56a"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-select@^4.0.13":
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react-select/-/react-select-4.0.13.tgz#8d2c41a0df7fbf67ab0b995797b0e9b4e6b38cde"
+  dependencies:
+    "@emotion/serialize" "^1.0.0"
+    "@types/react" "*"
+    "@types/react-dom" "*"
+    "@types/react-transition-group" "*"
+
+"@types/react-sound@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@types/react-sound/-/react-sound-1.2.2.tgz#07677469bfcfedeb32fe4c770b44cc4c4d5a8a30"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-transition-group@*", "@types/react-transition-group@^4.2.0":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.1.tgz#e1a3cb278df7f47f17b5082b1b3da17170bd44b1"
   dependencies:
     "@types/react" "*"
 
@@ -2839,6 +3242,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
 clean-css@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
@@ -2864,6 +3271,10 @@ cliui@^6.0.0:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
+
+clsx@^1.0.4:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
 
 co@^4.6.0:
   version "4.6.0"
@@ -3104,10 +3515,6 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cra-template-typescript@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/cra-template-typescript/-/cra-template-typescript-1.1.2.tgz#938f3699430dc9dda0bbf23eeb2e6daf45f3790c"
-
 create-ecdh@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.4.tgz#d6e7f4bffa66736085a0762fd3a632684dabcc4e"
@@ -3248,6 +3655,13 @@ css-tree@^1.1.2:
     mdn-data "2.0.14"
     source-map "^0.6.1"
 
+css-vendor@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/css-vendor/-/css-vendor-2.0.8.tgz#e47f91d3bd3117d49180a3c935e62e3d9f7f449d"
+  dependencies:
+    "@babel/runtime" "^7.8.3"
+    is-in-browser "^1.0.2"
+
 css-what@^3.2.1:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
@@ -3366,6 +3780,10 @@ cssstyle@^2.2.0:
   resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
   dependencies:
     cssom "~0.3.6"
+
+csstype@^2.5.2:
+  version "2.6.16"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.16.tgz#544d69f547013b85a40d15bff75db38f34fe9c39"
 
 csstype@^3.0.2:
   version "3.0.7"
@@ -3594,6 +4012,13 @@ dom-converter@^0.2:
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.2.0.tgz#6721a9daee2e293682955b6afe416771627bb768"
   dependencies:
     utila "~0.4"
+
+dom-helpers@^5.0.1:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.2.0.tgz#57fd054c5f8f34c52a3eeffdb7e7e93cd357d95b"
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 dom-serializer@0:
   version "0.2.2"
@@ -4136,6 +4561,10 @@ execa@^4.0.0:
     onetime "^5.1.0"
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
+
+exenv@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
 
 exit@^0.1.2:
   version "0.1.2"
@@ -4745,6 +5174,12 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  dependencies:
+    react-is "^16.7.0"
+
 hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
@@ -4752,6 +5187,10 @@ hoopy@^0.1.4:
 hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
+
+howler@^2.1.3:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.2.1.tgz#a521a9b495841e8bb9aa12e651bebba0affc179e"
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -4895,6 +5334,10 @@ human-signals@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
 
+hyphenate-style-name@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
+
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -4976,6 +5419,12 @@ import-local@^3.0.2:
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
+
+indefinite-observable@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/indefinite-observable/-/indefinite-observable-2.0.1.tgz#574af29bfbc17eb5947793797bddc94c9d859400"
+  dependencies:
+    symbol-observable "1.2.0"
 
 indent-string@^4.0.0:
   version "4.0.0"
@@ -5193,6 +5642,10 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   resolved "https://registry.yarnpkg.com/is-glob/-/is-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
   dependencies:
     is-extglob "^2.1.1"
+
+is-in-browser@^1.0.2, is-in-browser@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/is-in-browser/-/is-in-browser-1.1.3.tgz#56ff4db683a078c6082eb95dad7dc62e1d04f835"
 
 is-module@^1.0.0:
   version "1.0.0"
@@ -5893,12 +6346,79 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jss-plugin-camel-case@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-camel-case/-/jss-plugin-camel-case-10.6.0.tgz#93d2cd704bf0c4af70cc40fb52d74b8a2554b170"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    hyphenate-style-name "^1.0.3"
+    jss "10.6.0"
+
+jss-plugin-default-unit@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-default-unit/-/jss-plugin-default-unit-10.6.0.tgz#af47972486819b375f0f3a9e0213403a84b5ef3b"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-global@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-global/-/jss-plugin-global-10.6.0.tgz#3e8011f760f399cbadcca7f10a485b729c50e3ed"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-nested@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-nested/-/jss-plugin-nested-10.6.0.tgz#5f83c5c337d3b38004834e8426957715a0251641"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-props-sort@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-props-sort/-/jss-plugin-props-sort-10.6.0.tgz#297879f35f9fe21196448579fee37bcde28ce6bc"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-rule-value-function@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.6.0.tgz#3c1a557236a139d0151e70a82c810ccce1c1c5ea"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-vendor-prefixer@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.6.0.tgz#e1fcd499352846890c38085b11dbd7aa1c4f2c78"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    css-vendor "^2.0.8"
+    jss "10.6.0"
+
+jss@10.6.0, jss@^10.5.1:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jss/-/jss-10.6.0.tgz#d92ff9d0f214f65ca1718591b68e107be4774149"
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    csstype "^3.0.2"
+    indefinite-observable "^2.0.1"
+    is-in-browser "^1.1.3"
+    tiny-warning "^1.0.2"
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-3.2.0.tgz#41108d2cec408c3453c1bbe8a4aae9e1e2bd8f82"
   dependencies:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
+
+keyboard-key@^1.0.4:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/keyboard-key/-/keyboard-key-1.1.0.tgz#6f2e8e37fa11475bb1f1d65d5174f1b35653f5b7"
 
 killable@^1.0.1:
   version "1.0.1"
@@ -6147,6 +6667,10 @@ mdn-data@2.0.4:
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
+
+memoize-one@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -6973,6 +7497,10 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
+popper.js@1.16.1-lts:
+  version "1.16.1-lts"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1-lts.tgz#cf6847b807da3799d80ee3d6d2f90df8a3f50b05"
+
 portfinder@^1.0.26:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -7641,7 +8169,7 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -7832,11 +8360,17 @@ react-error-overlay@^6.0.9:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
 
-react-is@^16.8.1:
+react-input-autosize@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-3.0.0.tgz#6b5898c790d4478d69420b55441fcc31d5c50a85"
+  dependencies:
+    prop-types "^15.5.8"
+
+react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
-react-is@^17.0.1:
+"react-is@^16.8.0 || ^17.0.0", react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
 
@@ -7908,6 +8442,27 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-select@^4.1.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-4.3.0.tgz#6bde634ae7a378b49f3833c85c126f533483fa2e"
+  dependencies:
+    "@babel/runtime" "^7.12.0"
+    "@emotion/cache" "^11.0.0"
+    "@emotion/react" "^11.1.1"
+    memoize-one "^5.0.0"
+    prop-types "^15.6.0"
+    react-input-autosize "^3.0.0"
+    react-transition-group "^4.3.0"
+
+react-transition-group@^4.3.0, react-transition-group@^4.4.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react@^17.0.1:
   version "17.0.1"
@@ -8499,6 +9054,10 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -8940,6 +9499,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
+stylis@^4.0.3:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.0.7.tgz#412a90c28079417f3d27c028035095e4232d2904"
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -8986,6 +9549,10 @@ svgo@^1.0.0, svgo@^1.2.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+symbol-observable@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -9114,6 +9681,10 @@ timers-browserify@^2.0.4:
 timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+
+tiny-warning@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
 
 tmpl@1.0.x:
   version "1.0.4"
@@ -9398,6 +9969,12 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-sound@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/use-sound/-/use-sound-2.0.1.tgz#72e70d4bfdda71a6959e5adab0c7e10ff4080a0a"
+  dependencies:
+    howler "^2.1.3"
 
 use@^3.1.0:
   version "3.1.1"

@@ -1,240 +1,240 @@
 [
   {
      "value":"standard",
-     "label":"Standard",
+     "text":"Standard",
      "strings":[
         {
-           "label":"e",
+           "text":"e",
            "value":"e2"
         },
         {
-           "label":"a",
+           "text":"a",
            "value":"a2"
         },
         {
-           "label":"d",
+           "text":"d",
            "value":"d3"
         },
         {
-           "label":"g",
+           "text":"g",
            "value":"g3"
         },
         {
-           "label":"b",
+           "text":"b",
            "value":"b3"
         },
         {
-           "label":"e",
+           "text":"e",
            "value":"e4"
         }
      ]
   },
   {
      "value":"drop-d",
-     "label":"Drop D",
+     "text":"Drop D",
      "strings":[
         {
-           "label":"d",
+           "text":"d",
            "value":"d2"
         },
         {
-           "label":"a",
+           "text":"a",
            "value":"a2"
         },
         {
-           "label":"d",
+           "text":"d",
            "value":"d3"
         },
         {
-           "label":"g",
+           "text":"g",
            "value":"g3"
         },
         {
-           "label":"b",
+           "text":"b",
            "value":"b3"
         },
         {
-           "label":"e",
+           "text":"e",
            "value":"e4"
         }
      ]
   },
   {
     "value":"double-drop-d",
-    "label":"Double Drop D",
+    "text":"Double Drop D",
     "strings":[
        {
-          "label":"d",
+          "text":"d",
           "value":"d2"
        },
        {
-          "label":"a",
+          "text":"a",
           "value":"a2"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d3"
        },
        {
-          "label":"g",
+          "text":"g",
           "value":"g3"
        },
        {
-          "label":"b",
+          "text":"b",
           "value":"b3"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d4"
        }
     ]
   },
   {
     "value":"open-d",
-    "label":"Open D",
+    "text":"Open D",
     "strings":[
        {
-          "label":"d",
+          "text":"d",
           "value":"d2"
        },
        {
-          "label":"a",
+          "text":"a",
           "value":"a2"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d3"
        },
        {
-          "label":"f#",
+          "text":"f#",
           "value":"fSharp3"
        },
        {
-          "label":"a",
+          "text":"a",
           "value":"a3"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d4"
        }
     ]
   },
   {
     "value":"open-g",
-    "label":"Open G",
+    "text":"Open G",
     "strings":[
        {
-          "label":"d",
+          "text":"d",
           "value":"d2"
        },
        {
-          "label":"g",
+          "text":"g",
           "value":"g2"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d3"
        },
        {
-          "label":"g",
+          "text":"g",
           "value":"g3"
        },
        {
-          "label":"b",
+          "text":"b",
           "value":"b3"
        },
        {
-          "label":"d",
+          "text":"d",
           "value":"d4"
        }
     ]
   },
   {
     "value":"open-a",
-    "label":"Open A",
+    "text":"Open A",
     "strings":[
        {
-          "label":"e",
+          "text":"e",
           "value":"e2"
        },
        {
-          "label":"a",
+          "text":"a",
           "value":"a2"
        },
        {
-          "label":"e",
+          "text":"e",
           "value":"e3"
        },
        {
-          "label":"a",
+          "text":"a",
           "value":"a3"
        },
        {
-          "label":"c#",
+          "text":"c#",
           "value":"cSharp4"
        },
        {
-          "label":"e",
+          "text":"e",
           "value":"e4"
        }
     ]
   },
   {
     "value":"open-c",
-    "label":"Open C",
+    "text":"Open C",
     "strings":[
        {
-          "label":"c",
+          "text":"c",
           "value":"c2"
        },
        {
-          "label":"g",
+          "text":"g",
           "value":"g2"
        },
        {
-          "label":"c",
+          "text":"c",
           "value":"c3"
        },
        {
-          "label":"g",
+          "text":"g",
           "value":"g3"
        },
        {
-          "label":"c",
+          "text":"c",
           "value":"c4"
        },
        {
-          "label":"e",
+          "text":"e",
           "value":"e4"
        }
     ]
   },
   {
     "value":"open-e",
-    "label":"Open E",
+    "text":"Open E",
     "strings":[
        {
-          "label":"e",
+          "text":"e",
           "value":"e2"
        },
        {
-          "label":"b",
+          "text":"b",
           "value":"b2"
        },
        {
-          "label":"e",
+          "text":"e",
           "value":"e3"
        },
        {
-          "label":"g#",
+          "text":"g#",
           "value":"gSharp3"
        },
        {
-          "label":"b",
+          "text":"b",
           "value":"b3"
        },
        {
-          "label":"e",
+          "text":"e",
           "value":"e4"
        }
     ]

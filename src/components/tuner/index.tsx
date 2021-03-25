@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import TuningSelect from './tuningSelect';
 import useSound from 'use-sound';
+import GuitarSVG from '../../assets/guitar-head.svg';
 import './Tuner.css';
 
 interface TunerProps {
+  setCurrentTuning: any
   currentTuning: any
   isLooping: boolean
   loopInterval: number
+  options: any
 }
 
 const Tuner: React.FC<TunerProps> = (props) => {
@@ -107,15 +111,23 @@ const Tuner: React.FC<TunerProps> = (props) => {
                 <li key={index} className={classList}>
                   <a  
                     href="#"
-                    title={string.label.toUpperCase()}
+                    title={string.text.toUpperCase()}
                     onClick={() => { onClick(string, index) }}
-                  >{string.label}</a>
+                  >{string.text}</a>
                 </li>
               )
             })}
+            <li className="guitar-svg">
+            <object type="image/svg+xml" data={GuitarSVG}></object>
+            </li>
           </ul>
-
-          <h1 className="tuner-heading">{props?.currentTuning?.label}</h1>
+          <div className="tuner-settings">
+            <TuningSelect
+              currentTuning={props.currentTuning}
+              setCurrentTuning={props.setCurrentTuning}
+              options={props.options}
+            />
+          </div>
         </div>
       </div>
     </div>

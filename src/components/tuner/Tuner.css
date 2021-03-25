@@ -1,22 +1,31 @@
 .tuner {
   position: relative;
   width: 100%;
-  max-width: 270px;
+  max-width: 485px;
   margin: 0 auto;
+  padding: 4rem;
+  border-radius: 24px;
+  background: #202020;
+  box-sizing: border-box;
+}
+
+body.light .tuner {
+  background: #F1F1F1;
 }
 
 .tuner-buttons {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 0 2.5rem 0;
-  padding: 0;
+  padding: 1rem 0 0;
   list-style: none;
 }
 
 .tuner-buttons li {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 50%;
   margin-bottom: 1rem;
@@ -24,14 +33,17 @@
 
 .tuner-buttons li:nth-child(1) {
   order: 5;
+  justify-content: flex-start;
 }
 
 .tuner-buttons li:nth-child(2) {
   order: 3;
+  justify-content: flex-start;
 }
 
 .tuner-buttons li:nth-child(3) {
   order: 1;
+  justify-content: flex-start;
 }
 
 .tuner-buttons li:nth-child(4) {
@@ -46,33 +58,55 @@
   order: 6;
 }
 
+.tuner-buttons li.guitar-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInBottom 1s forwards 0.5s;
+}
+
+.tuner-buttons li.guitar-svg object {
+  max-width: 218px;
+}
+
 .tuner-buttons li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background: rgb(240, 240, 240);
+  border: 2px solid rgba(228, 231, 235, 0.31);
+  background: transparent;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.15s ease;
-  color: rgb(60, 60, 60);
-}
-
-.tuner-buttons li a:hover {
-  background: rgb(220, 220, 220);
-}
-
-.tuner-buttons li a:active {
-  background: #ffbf0a;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+  opacity: 0;
+  animation: fadeInBottom 1s forwards;
 }
 
 .tuner-buttons li.current-string a {
-  background: #ffbf0a;
+  background: rgba(54, 140, 255, 0.19);
+  border-color: white;
+  color: white;
+}
+
+.tuner-buttons li a:hover {
+  border-color: white;
+  color: white;
 }
 
 .tuner-heading {
@@ -86,49 +120,28 @@
 }
 
 @media screen and (max-width: 767px) {
-  .tuner-guitar {
-    width: 300px;
+  .tuner {
+    padding: 1rem;
   }
 
-  /* .tuner-buttons li a {
-    width: 35px;
-    height: 35px;
-    font-size: 1rem;
-  } */
-
-  /* STRING 1 */
-  .tuner-buttons li:nth-child(1) {
-    bottom: 89px;
-    left: 38px;
+  .tuner-buttons li.guitar-svg object {
+    max-width: 100%;
   }
+}
 
-  /* STRING 2 */
-  .tuner-buttons li:nth-child(2) {
-    bottom: 151px;
-    left: 34px;
+@media screen and (max-width: 575px) {
+  .tuner-buttons li.guitar-svg object {
+    max-width: 60%;
   }
+}
 
-  /* STRING 3 */
-  .tuner-buttons li:nth-child(3) {
-    bottom: 208px;
-    left: 31px;
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-
-  /* STRING 4 */
-  .tuner-buttons li:nth-child(4) {
-    bottom: 89px;
-    right: 40px;
-  }
-
-  /* STRING 5 */
-  .tuner-buttons li:nth-child(5) {
-    bottom: 151px;
-    right: 36px;
-  }
-
-  /* STRING 6 */
-  .tuner-buttons li:nth-child(6) {
-    bottom: 220px;
-    right: 32px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

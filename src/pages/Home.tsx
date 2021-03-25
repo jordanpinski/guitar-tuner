@@ -15,21 +15,17 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = (props) => {
   return (
-    <div>
-      <Header
-        currentTuning={props.currentTuning}
-        setCurrentTuning={props.setCurrentTuning}
-        setIsLooping={props.setIsLooping}
-        isLooping={props.isLooping}
-        options={props.options}
-      />
+    <>
+      <Header />
       <Tuner
+        setCurrentTuning={props.setCurrentTuning}
         currentTuning={props.currentTuning}
         isLooping={props.isLooping}
         loopInterval={props.loopInterval}
+        options={props.options}
       />
       <Footer />
-    </div>
+    </>
   );
 }
 
